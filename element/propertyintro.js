@@ -14,7 +14,7 @@ function PropertyIntro() {
             <h6 className="sub-title bgl-primary m-b20 text-primary">
               Property Intro
             </h6>
-            <h2 className="title">You Should Know About The Project</h2>
+            <h2 className="title">💗 Over 15,000 amazing family Have taken property in our Township - you're amazing too!</h2>
           </div>
 
           <div className="row align-items-center">
