@@ -17,7 +17,7 @@ function LandHeader() {
             <div className="container clearfix">
               {/* <!-- Website Logo --> */}
               <div className="logo-header mostion logo-dark">
-                <Link href="/">
+                <Link href="/brij-rani-kutir-promo-001">
                   <a>
                     <img src="images/logo.png" alt="" />
                   </a>
