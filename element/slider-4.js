@@ -71,17 +71,19 @@ function Slider4() {
                       data-wow-delay="2s"
                       className="wow fadeInUp btn btn-link d-inline-flex align-items-center"
                     >
-                      <i className="fa fa-angle-right m-r10"></i>Most appriciated project
-                    </a>
-                    <a
+                      <i className="fa fa-angle-right m-r10"></i>More Appriciated Township in Vrindavan
+                  </a>
+                  <a
                       data-wow-duration="1.6s"
                       data-wow-delay="2s"
                       className="wow fadeInUp btn btn-link d-inline-flex align-items-center"
                     >
-                      <i className="fa fa-angle-right m-r10 m-t10"></i>Affordable property with best aminities
+                      <i className="fa fa-angle-right m-r10 m-t10"></i>Affordable Property with Best Aminities
                     </a>
                     <div className="col-lg-12 text-center">
-                    <button type="button" className="btn btn-outline-danger m-2">Pay less, get more! - Schedule a Call Back</button>
+                      <a data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                        <button type="button" className="btn btn-success m-2">Pay less, get more! - Schedule a Call Back</button>
+                      </a>
                 </div>
                 </div>
               </div>

@@ -13,11 +13,11 @@ function Header2() {
                                 <ul>
                                     <li>
                                         <i className="la la-envelope"></i>{" "}
-                                        info@example.com
+                                        info@krsgrouptownship.com
                                     </li>
                                     <li>
                                         <i className="la la-phone-volume"></i> +91
-                                        987-654-3210
+                                        9873632575
                                     </li>
                                 </ul>
                             </div>

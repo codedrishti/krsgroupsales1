@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Script from 'next/script';
 import Slider4 from "../element/slider-4";
 import AboutUs from "../component/aboutCompany";
 import PropertyIntro from "../element/propertyintro";
@@ -25,20 +26,15 @@ function BrijRaniKutirPromo001() {
                     <PropertyIntro />
                     <Aminities />
                     <Portfolio />
-                    {/* <Counter /> */}
                     <Gallery />
                     <Testimonial />
                     <AboutUs />
                     <FAQList />
                     <Cta />
                </div>
+               
                <Footer />
-
-               <script
-                    async
-                    data-uid="dad8077b79"
-                    src="https://fabulous-inventor-6977.ck.page/dad8077b79/index.js"
-               ></script>
+               <Script async data-uid="dad8077b79" src="https://fabulous-inventor-6977.ck.page/dad8077b79/index.js" strategy="beforeInteractive"/>
           </>
      );
 }
