@@ -26,11 +26,12 @@ function Aminities() {
           </div>
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h4>
+              <h3>
                 <span className="text-warning">In Exchange for Tiny Investment with 0% Intrest Rate,
-                You Get ALL Of This Price Less Aminities.</span>
-              </h4>
-              <button type="button" className="btn btn-outline-success mt-25">Schedule Call Back</button>
+                You Get ALL Of This Price Less Aminities.</span><br />
+                <span className="text-dark">Its your pocket-friendly property and Everything you need, on a budget so Hurry before the price get increase.</span>
+              </h3>
+              <button type="button" className="btn btn-outline-success mt-25 move-2">Schedule Call Back - <span className="text-dark">Don't miss the chance!</span></button>
             </div>
           </div>
         </div>

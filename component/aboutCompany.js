@@ -1,32 +1,61 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 function AboutCompany() {
-    return (
-      <>  
-          <section id="aboutus" className="custom-content-inner">
-              <div className="container">
-                  <div className="row align-items-center">
-                      <div className="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
-                          <div className="dz-media">
-                              <img src="images/about/img4.png" className="move-1" alt=""/>
-                          </div>
-                      </div>
-                      <div className="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-                          <div className="section-head style-1 mb-4">
-                              <h6 className="sub-title bgl-primary m-b20 text-primary">About Us</h6>
-                              <h2 className="title">How We Can Help You Achieve Your Business Goal</h2>
-                          </div>
-                          <p>Integer pretium molestie nisl, non blandit lectus suscipit in. Vivamus tellus diam, iaculis eget nulla sit amet, tincidunt consectetur sem. Suspendisse laoreet, quam sed faucibus feugiat, tortor velit suscipit orci, sed consectetur ante eros id urna. Mauris luctus nulla ut pharetra tempor.</p>
-                          <p className="m-b30">Mauris egestas eleifend sapien eu malesuada. Phasellus at metus eget sapien tristique accumsan non sit amet augue.</p>
-                          <img src="images/sign.png" alt=""/>
-                          <h4 className="m-b30">CEO Jhone Doe</h4>
-                         <Link href="about-us-1"><a  className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Learn More</a></Link> 
-                      </div>
-                  </div>
+  return (
+    <>
+      <section id="aboutus" className="content-inner">
+        <div className="container">
+          <div className="row align-items-center">
+            <div
+              className="col-lg-6 m-b30 wow fadeInLeft"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+            >
+              <div className="dz-media">
+                <img src="images/about/img4.png" className="move-1" alt="" />
               </div>
-          </section>
-      </>
-    )
-  }
-  
-  export default AboutCompany;
+            </div>
+            <div
+              className="col-lg-6 m-b30 wow fadeInRight"
+              data-wow-duration="2s"
+              data-wow-delay="0.4s"
+            >
+              <div className="section-head style-1 mb-4">
+                <h6 className="sub-title bgl-primary m-b20 text-primary">
+                  About Us
+                </h6>
+                <h2 className="title">
+                  How We Can Help You Achieve Your Dream Goal
+                </h2>
+              </div>
+              <p>
+                We KRS Group started our opration into the real estate industry
+                in the year of 1998. And we established our self realestate
+                group in the year of 2015 with the name of KRS Home Developers.
+                We earned so much credibility & reliablity during these years.
+                KRS Group and its company KRS Home Developers is the most
+                reputed name in this industry.
+              </p>
+              <p className="m-b30">
+                We are On A Mission To Help 100, 000+ People, By Providing
+                Affordable Property with World Class Aminites. We Build Township
+                Whose Value Keeps on Increasing Over The Time, That why Our KRS
+                Family is Growing Too Fast. And It's Our Vision and Mission
+                Also.
+              </p>
+              {/* <img src="images/sign.png" alt="" /> */}
+              <h4 className="m-b30">KRS Home Developers Private Limited</h4>
+              <Link href="about-us-1">
+                <a className="btn btn-link d-inline-flex align-items-center move-2">
+                  <i className="fa fa-angle-right m-r10"></i>Save money and live better
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default AboutCompany;

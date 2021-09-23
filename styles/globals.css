@@ -123,3 +123,19 @@
 .main-bar-wraper.is-fixed .custom-logo-white{
 	display:none;
 }
+
+/* Swing Box */
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  .swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+  }
+   
+  @keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+  }
