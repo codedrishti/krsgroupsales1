@@ -39,7 +39,7 @@ function PropertyIntro() {
                 channel="youtube"
                 autoplay
                 isOpen={isOpen}
-                videoId="UpolBSznWp0"
+                videoId="zgAgAmN-MSo"
                 onClose={() => setOpen(false)}
               />
             </div>
@@ -62,8 +62,8 @@ function PropertyIntro() {
                   </ul>
                 </div>
                 <div className="col-lg-12 text-center">
-                  <button type="button" className="btn btn-outline-danger m-2">Schedule a Call Back</button>
-                  <button type="button" className="btn btn-outline-success ">Book Free Site Visit</button>
+                  <button type="button" className="btn btn-danger m-2 move-2">Schedule a Call Back</button>
+                  <button type="button" className="btn btn-success move-2">Book Free Site Visit</button>
                 </div>
               </div>
             </div>

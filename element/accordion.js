@@ -1,106 +1,88 @@
 import { useState } from "react";
 
-
 function Accordion1() {
-    const [activeDefault, setActiveDefault] = useState(0);
-    const defaultAccordion = [
-        {
-            title: "Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere dolor ?",
-            text:
-                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
-            bg: "primary",
-        },
-        {
-            title: "Maecenas aliquet quam sed tellus cursus, eget sodales elit luctus ?",
-            text:
-                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+  const [activeDefault, setActiveDefault] = useState(0);
+  const defaultAccordion = [
+    {
+      title: "Location of Project and Developer ?",
+      text: "Property is located in Vrindavan near Shri Garun Govind Temple. Society is owned by KRS Home Developer Private Limited.",
+      bg: "primary",
+    },
+    {
+      title:
+        "Registration/Approved by which authority ?",
+      text: "Society is registered under CLU 143 (Change of Land Use) & by District Authority.",
 
-            bg: "info",
-        },
-        {
-            title: "Proin blandit sed arcu sed ultricies ?",
-            text:
-                "Donec suscipit porta lorem eget condimentum. Morbi vitae mauris in leo venenatis varius. Aliquam nunc enim, egestas ac dui in, aliquam vulputate erat. Curabitur porttitor ante ut odio vestibulum, et iaculis arcu scelerisque.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+      bg: "info",
+    },
+    {
+      title: "Residential/Commercial ?",
+      text: "Residential and commercial both property are available in our society.",
 
-            bg: "success",
-            
-        },
-        {
-            title: "Proin cursus massa ipsum, at lacinia erat elementum sit amet ?",
-            text:
-                "Donec suscipit porta lorem eget condimentum. Morbi vitae mauris in leo venenatis varius. Aliquam nunc enim, egestas ac dui in, aliquam vulputate erat. Curabitur porttitor ante ut odio vestibulum, et iaculis arcu scelerisque.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+      bg: "success",
+    },
+    {
+      title: "Payment Plans/ Schemes & Interest on EMI ?",
+      text: "KRS Home Developers provide the 0% Interest rate EMI facilities to there clients for 15 to 35 month as well.",
 
-            bg: "success",
-        },
-        {
-            title: "Quisque sem tortor, convallis in arcu eu, accumsan finibus massa ?",
-            text:
-                "Donec suscipit porta lorem eget condimentum. Morbi vitae mauris in leo venenatis varius. Aliquam nunc enim, egestas ac dui in, aliquam vulputate erat. Curabitur porttitor ante ut odio vestibulum, et iaculis arcu scelerisque.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+      bg: "success",
+    },
+    {
+      title:
+        "Affordability, can I afford this property to buy ?",
+      text: "We alway remember the budget of our customer during development of the new property or society. So our property can be owned by everyone who actually wants to buy.",
 
-            bg: "success",
-        },
-        {
-            title: "Aenean vel euismod risus, ac congue lectus ?",
-            text:
-                "Donec suscipit porta lorem eget condimentum. Morbi vitae mauris in leo venenatis varius. Aliquam nunc enim, egestas ac dui in, aliquam vulputate erat. Curabitur porttitor ante ut odio vestibulum, et iaculis arcu scelerisque.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+      bg: "success",
+    },
+    {
+      title: "Registry (is possible on 50% payment?) & Allotments of property ?",
+      text: "You can procced your property for registry after 50% or 100% payment of your property value. You will get your property allotment letter after your property booking amount.",
 
-            bg: "success",
-        },
-        
-    ];
+      bg: "success",
+    },
+  ];
   return (
     <>
-        <div
-            className="dlab-accordion"
-            id="accordionFaq"
-            defaultactivekey="0"
-        >
-            {defaultAccordion.map((d, i) => (
-                <div className="card" key={i}>
-                    <div
-                        eventkey={`${i}`}
-                        className="card-header"
-                        onClick={() =>
-                            setActiveDefault(activeDefault === i ? -1 : i)
-                        }
-                    >
-                        <h5 className="dlab-title">
-                            <a href="javascript:void(0);"
-                                className={`${
-                                    activeDefault === i ? "" : "collapsed"
-                                }`}
-                                onClick={() =>
-                                    setActiveDefault(
-                                        activeDefault === i ? -1 : i
-                                    )
-                                }
-                            >
-                                {" "}
-                                {d.title}
-                            </a>
-                        </h5>
-                    </div>
-                    {/* <div className="collapse show" eventkey={`${i}`}>
+      <div className="dlab-accordion" id="accordionFaq" defaultactivekey="0">
+        {defaultAccordion.map((d, i) => (
+          <div className="card" key={i}>
+            <div
+              eventkey={`${i}`}
+              className="card-header"
+              onClick={() => setActiveDefault(activeDefault === i ? -1 : i)}
+            >
+              <h5 className="dlab-title">
+                <a
+                  href="javascript:void(0);"
+                  className={`${activeDefault === i ? "" : "collapsed"}`}
+                  onClick={() => setActiveDefault(activeDefault === i ? -1 : i)}
+                >
+                  {" "}
+                  {d.title}
+                </a>
+              </h5>
+            </div>
+            {/* <div className="collapse show" eventkey={`${i}`}>
                         <div className="card-body">
                             <p className="m-b0">{d.text}</p>
                         </div>
                     </div> */}
-                    <div className={`${
-                                    activeDefault === i ? "collapsed show" : "collapsed"
-                                }`} eventkey={`${i}`} onClick={() =>
-                                    setActiveDefault(
-                                        activeDefault === i ? -1 : i
-                                    )
-                                }>
-                        <div className="card-body">
-                            <p className="m-b0">{d.text}</p>
-                        </div>
-                    </div>
-                </div>
-            ))}
-        </div>
+            <div
+              className={`${
+                activeDefault === i ? "collapsed show" : "collapsed"
+              }`}
+              eventkey={`${i}`}
+              onClick={() => setActiveDefault(activeDefault === i ? -1 : i)}
+            >
+              <div className="card-body">
+                <p className="m-b0">{d.text}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </>
-  )
+  );
 }
 
 export default Accordion1;

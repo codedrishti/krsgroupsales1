@@ -22,33 +22,32 @@ function Slider4() {
             </div> */}
             <div className="row align-items-center">
               <div className="col-md-6">
-			  <div className="banner-content">
-                <SimpleReactLightbox>
-                  <SRLWrapper>
-                    <div
-                      className="dz-media move-box wow fadeIn"
-                      data-wow-duration="1.6s"
-                      data-wow-delay="0.8s"
-                    >
-                      {/* <img className="move-1" src="images/move/pic1.png" alt=""/>
+                <div className="banner-content">
+                  <SimpleReactLightbox>
+                    <SRLWrapper>
+                      <div
+                        className="dz-media move-box wow fadeIn"
+                        data-wow-duration="1.6s"
+                        data-wow-delay="0.8s"
+                      >
+                        {/* <img className="move-1" src="images/move/pic1.png" alt=""/>
 								<img className="move-2" src="images/move/pic2.png" alt=""/> */}
-                      <a href="/images/landingpage/full-top-view-brij-rani-kutir.jpg">
-                        <img
-                          src="/images/landingpage/top-view-brij-rani-kutir.jpg"
-                          alt="Brij Rani Kutir"
-						  className="move-2"
-						  style={{
-							"border": "5px solid black",
-							"border-radius": "5px",
-							"cursor": "pointer",
-						  }}
-						
-                        />
-                      </a>
-                    </div>
-                  </SRLWrapper>
-                </SimpleReactLightbox>
-				</div>
+                        <a href="/images/landingpage/full-top-view-brij-rani-kutir.jpg">
+                          <img
+                            src="/images/landingpage/top-view-brij-rani-kutir.jpg"
+                            alt="Brij Rani Kutir"
+                            className="move-2"
+                            style={{
+                              border: "5px solid black",
+                              "border-radius": "5px",
+                              cursor: "pointer",
+                            }}
+                          />
+                        </a>
+                      </div>
+                    </SRLWrapper>
+                  </SimpleReactLightbox>
+                </div>
               </div>
 
               <div className="col-md-6">
@@ -56,85 +55,84 @@ function Slider4() {
                   <h6
                     data-wow-duration="1s"
                     data-wow-delay="0.5s"
-                    className="wow fadeInUp sub-title text-primary"
+                    className="wow fadeInUp sub-title text-danger"
                   >
-                    We Create Ideas
+                    यहाँ सर्च खत्म करें
                   </h6>
                   <h1
                     data-wow-duration="1.2s"
                     data-wow-delay="1s"
                     className="wow fadeInUp "
                   >
-                    Build Stunning <span className="text-primary">Website</span>{" "}
-                    With Slack Agency
+                    Brij Rani Kutir <span className="text-primary">Township</span>
                   </h1>
-                  <p
-                    data-wow-duration="1.4s"
-                    data-wow-delay="1.5s"
-                    className="wow fadeInUp m-b30"
-                  >
-                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
-                    Pellentesque vitae ante at elit fringilla ac at purus.
-                  </p>
-                  <Link href="about-us-1">
+                  <a
+                      data-wow-duration="1.6s"
+                      data-wow-delay="2s"
+                      className="wow fadeInUp btn btn-link d-inline-flex align-items-center"
+                    >
+                      <i className="fa fa-angle-right m-r10"></i>Most appriciated project
+                    </a>
                     <a
                       data-wow-duration="1.6s"
                       data-wow-delay="2s"
                       className="wow fadeInUp btn btn-link d-inline-flex align-items-center"
                     >
-                      <i className="fa fa-angle-right m-r10"></i>Learn More
+                      <i className="fa fa-angle-right m-r10 m-t10"></i>Affordable property with best aminities
                     </a>
-                  </Link>
+                    <div className="col-lg-12 text-center">
+                    <button type="button" className="btn btn-outline-danger m-2">Pay less, get more! - Schedule a Call Back</button>
+                </div>
                 </div>
               </div>
             </div>
           </div>
-		  <div className="row pt-3">
-		  	<div
-                className="col-sm-3 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.1s"
+          <div className="row pt-3">
+            <div
+              className="col-sm-3 wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.1s"
             >
-                <div className="dlab-team m-b30">
-                    <div className="dlab-media dlab-img-effect zoom zoom-slow">
-					<img src="images/landingpage/brij-pic-1.jpg" alt="" />
-                    </div>
+              <div className="dlab-team m-b30">
+                <div className="dlab-media dlab-img-effect zoom zoom-slow">
+                  <img src="images/landingpage/brij-pic-1.jpg" alt="" />
                 </div>
+              </div>
             </div>
-			<div
-                className="col-sm-3 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.1s"
+            <div
+              className="col-sm-3 wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.1s"
             >
-                <div className="dlab-team m-b30">
-                    <div className="dlab-media dlab-img-effect zoom zoom-slow">
-					<img src="images/landingpage/brij-pic-2.jpg" alt="" />
-                    </div>
+              <div className="dlab-team m-b30">
+                <div className="dlab-media dlab-img-effect zoom zoom-slow">
+                  <img src="images/landingpage/brij-pic-2.jpg" alt="" />
                 </div>
+              </div>
             </div>
-			<div
-                className="col-sm-3 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.1s"
+            <div
+              className="col-sm-3 wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.1s"
             >
-                <div className="dlab-team m-b30">
-                    <div className="dlab-media dlab-img-effect zoom zoom-slow">
-					<img src="images/landingpage/brij-pic-3.jpg" alt="" />
-                    </div>
+              <div className="dlab-team m-b30">
+                <div className="dlab-media dlab-img-effect zoom zoom-slow">
+                  <img src="images/landingpage/brij-pic-3.jpg" alt="" />
                 </div>
+              </div>
             </div>
-			<div
-                className="col-sm-3 wow fadeInUp"
-                data-wow-duration="2s"
-                data-wow-delay="0.1s"
+            <div
+              className="col-sm-3 wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.1s"
             >
-                <div className="dlab-team m-b30">
-                    <div className="dlab-media dlab-img-effect zoom zoom-slow">
-					<img src="images/landingpage/brij-pic-4.jpg" alt="" />
-                    </div>
+              <div className="dlab-team m-b30">
+                <div className="dlab-media dlab-img-effect zoom zoom-slow">
+                  <img src="images/landingpage/brij-pic-4.jpg" alt="" />
                 </div>
+              </div>
             </div>
-		  </div>
+          </div>
         </div>
       </div>
     </>

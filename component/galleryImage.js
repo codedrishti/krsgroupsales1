@@ -9,12 +9,26 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "web_design", "branding"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic1.jpg"
+          src="/images/gallery/pic1.jpg"
           layout="responsive"
-          width={370}
+          width={400}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "mobile_app", "seo"],
+      imageSrc: "/images/gallery/pic12.jpg",
+      img: (
+        <Image
+          src="/images/gallery/pic12.jpeg"
+          layout="responsive"
+          width={400}
           height={370}
         />
       ),
@@ -23,12 +37,12 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "web_development", "branding"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic2.jpg"
+          src="/images/gallery/pic15.jpeg"
           layout="responsive"
-          width={370}
+          width={400}
           height={370}
         />
       ),
@@ -37,12 +51,12 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "web_design", "seo"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic3.jpg"
+          src="/images/gallery/pic3.jpg"
           layout="responsive"
-          width={370}
+          width={400}
           height={370}
         />
       ),
@@ -51,12 +65,12 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "web_development", "branding"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic2.jpg"
+          src="/images/gallery/pic4.png"
           layout="responsive"
-          width={370}
+          width={400}
           height={370}
         />
       ),
@@ -65,12 +79,12 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "web_design", "branding"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic4.jpg"
+          src="/images/gallery/pic5.jpg"
           layout="responsive"
-          width={370}
+          width={400}
           height={370}
         />
       ),
@@ -79,12 +93,12 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "mobile_app", "seo"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic5.jpg"
+          src="/images/gallery/pic6.jpeg"
           layout="responsive"
-          width={370}
+          width={400}
           height={370}
         />
       ),
@@ -93,12 +107,12 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "branding", "seo"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic6.jpg"
+          src="/images/gallery/pic7.jpeg"
           layout="responsive"
-          width={370}
+          width={400}
           height={370}
         />
       ),
@@ -107,12 +121,54 @@ function GalleryImage() {
     {
       title: "Software Landing Page Design",
       category: ["all", "mobile_app", "seo"],
-      imageSrc: "/images/projects/pic4.jpg",
+      imageSrc: "/images/gallery/pic4.jpg",
       img: (
         <Image
-          src="/images/projects/pic5.jpg"
+          src="/images/gallery/pic10.png"
           layout="responsive"
-          width={370}
+          width={400}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "mobile_app", "seo"],
+      imageSrc: "/images/gallery/pic4.jpg",
+      img: (
+        <Image
+          src="/images/gallery/pic18.jpeg"
+          layout="responsive"
+          width={400}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "mobile_app", "seo"],
+      imageSrc: "/images/gallery/pic4.jpg",
+      img: (
+        <Image
+          src="/images/gallery/pic14.jpeg"
+          layout="responsive"
+          width={400}
+          height={370}
+        />
+      ),
+      author: "Jhone Doe",
+    },
+    {
+      title: "Software Landing Page Design",
+      category: ["all", "mobile_app", "seo"],
+      imageSrc: "/images/gallery/pic4.jpg",
+      img: (
+        <Image
+          src="/images/gallery/pic17.jpeg"
+          layout="responsive"
+          width={400}
           height={370}
         />
       ),

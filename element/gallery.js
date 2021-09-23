@@ -19,14 +19,14 @@ function Gallery() {
               <h4>
                 <span className="text-danger">
                   How to Keep Your Money from Being Murdered!
-                </span>{" "}
+                </span>
                 <span className="text-success">
-                  {" "}
                   Invest Your Money with Brij Rani Kutir Township!
                 </span>
               </h4>
-              <button type="button" className="btn btn-outline-success mt-25">
-                Schedule Call Back
+              <h3 className="text-dark">Limited time offer – Hurry up! Its time to Save More For Future.</h3>
+              <button type="button" className="btn btn-outline-success mt-25 move-2">
+                Schedule Call Back - <span className="text-dark">Sure good deals!</span>
               </button>
             </div>
           </div>
