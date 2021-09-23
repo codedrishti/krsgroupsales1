@@ -12,7 +12,7 @@ function AboutCompany() {
               data-wow-delay="0.2s"
             >
               <div className="dz-media">
-                <img src="images/about/img4.png" className="move-1" alt="" />
+                <img src="images/about/JP-tyagi-intro-01.jpg" className="" alt="" />
               </div>
             </div>
             <div
@@ -28,7 +28,7 @@ function AboutCompany() {
                   How We Can Help You Achieve Your Dream Goal
                 </h2>
               </div>
-              <p>
+              <p className="text-dark">
                 We KRS Group started our opration into the real estate industry
                 in the year of 1998. And we established our self realestate
                 group in the year of 2015 with the name of KRS Home Developers.
@@ -36,20 +36,20 @@ function AboutCompany() {
                 KRS Group and its company KRS Home Developers is the most
                 reputed name in this industry.
               </p>
-              <p className="m-b30">
-                We are On A Mission To Help 100, 000+ People, By Providing
-                Affordable Property with World Class Aminites. We Build Township
+              <p className="m-b30 text-dark">
+                <span className="text-dark h5">We are On A Mission To Help 100,000+ People, By Providing
+                Affordable Property with World Class Aminites</span>. We Build Township
                 Whose Value Keeps on Increasing Over The Time, That why Our KRS
                 Family is Growing Too Fast. And It's Our Vision and Mission
                 Also.
               </p>
               {/* <img src="images/sign.png" alt="" /> */}
               <h4 className="m-b30">KRS Home Developers Private Limited</h4>
-              <Link href="about-us-1">
-                <a className="btn btn-link d-inline-flex align-items-center move-2">
+              <a data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                <button className="btn btn-success d-inline-flex align-items-center move-2">
                   <i className="fa fa-angle-right m-r10"></i>Save money and live better
-                </a>
-              </Link>
+                </button>
+              </a>
             </div>
           </div>
         </div>

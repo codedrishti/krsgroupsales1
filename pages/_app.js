@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import cors from "cors";
 import Slider from "react-rangeslider";
 import "react-rangeslider/lib/index.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,79 +12,84 @@ import "../styles/globals.css";
 import "../styles/switcher.css";
 
 function MyApp({ Component, pageProps }) {
-	const [toggle1, setToggle1] = useState(false);
-	const [body_, setbody_] = useState();
-	const [header, setHeader] = useState("fixed");
-	const [header_, setHeader_] = useState();
+     const [toggle1, setToggle1] = useState(false);
+     const [body_, setbody_] = useState();
+     const [header, setHeader] = useState("fixed");
+     const [header_, setHeader_] = useState();
 
-	useEffect(() => {
-		setbody_(document.querySelector("body"));
-		setHeader_(document.getElementsByClassName("main-bar-wraper"));
-	}, []);
+     useEffect(() => {
+          setbody_(document.querySelector("body"));
+          setHeader_(document.getElementsByClassName("main-bar-wraper"));
+     }, []);
 
-	let scrollPosition = useScrollPosition();
-	function toggle() {
-		setToggle1(!toggle1);
-	}
- 
-  const chageHeader = (value) => {
-    setHeader(value);
-    if (value === "fixed") {
-      header_[0].classList.add("sticky-header");
-      header_[0].classList.remove("sticky-no");
-    } else {
-      header_[0].classList.add("sticky-no");
-      header_[0].classList.remove("sticky-header");
-      header_[0].classList.remove("is-fixed");
-    }
-  };
+     let scrollPosition = useScrollPosition();
+     function toggle() {
+          setToggle1(!toggle1);
+     }
 
-  const onChange = (value) => {
-    setSliderValu(value);
-    body_.style.padding = value + "px";
-  };
+     const chageHeader = (value) => {
+          setHeader(value);
+          if (value === "fixed") {
+               header_[0].classList.add("sticky-header");
+               header_[0].classList.remove("sticky-no");
+          } else {
+               header_[0].classList.add("sticky-no");
+               header_[0].classList.remove("sticky-header");
+               header_[0].classList.remove("is-fixed");
+          }
+     };
 
-  header === "fixed" && scrollPosition > 10
-    ? header_ && header_[0].classList.add("is-fixed")
-    : header_ && header_[0].classList.remove("is-fixed");
-	
-  return (
-    <>
-		<Head>
-			<title>Samar - React Template</title>
-			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
-        </Head>	
-		<div className="page-wraper">
-			<Component {...pageProps} />
-		</div>
-		
-		<a
-			href="https://themeforest.net/cart/configure_before_adding/32950742/?license=regular;"
-			target="_blank"
-			className="bt-buy-now theme-btn"
-		>
-			<i className="ti-shopping-cart" />
-			<span>Buy Now</span>
-		</a>
-		<a
-			href="https://support.w3itexperts.com"
-			target="_blank"
-			className="bt-support-now theme-btn"
-		>
-			<i className="ti-headphone-alt" />
-			<span>Support</span>
-		</a>
-		<a href="#top">
-			<button
-			  className="scroltop icon-up"
-			  type="button"
-			  style={{ display: "inline-block" }}
-			>
-			  <i className="fa fa-arrow-up" />
-			</button>
-		</a>
-    </>
-  );
+     const onChange = (value) => {
+          setSliderValu(value);
+          body_.style.padding = value + "px";
+     };
+
+     header === "fixed" && scrollPosition > 10
+          ? header_ && header_[0].classList.add("is-fixed")
+          : header_ && header_[0].classList.remove("is-fixed");
+
+     return (
+          <>
+               <Head>
+                    <title>No.1 Township Developer in India - KRS Group</title>
+                    <link
+                         rel="icon"
+                         type="image/png"
+                         sizes="16x16"
+                         href="/images/favicon.png"
+                    />
+               </Head>
+               <div className="page-wraper">
+                    <Component {...pageProps} />
+               </div>
+
+               <a
+                    href="https://api.whatsapp.com/send?phone=919873632575&text=Hello,%20I%20need%20to%20discuss%20something%20about%20the%20property."
+                    target="_blank"
+                    className="bt-buy-now theme-btn"
+               >
+                    <i className="fab fa-whatsapp"></i>
+                    <span>Chat</span>
+               </a>
+               <a
+                    href="mailto:info@krsgrouptownship.com?subject=KRS Group Township - Share the property details."
+                    target="_blank"
+                    className="bt-support-now theme-btn"
+               >
+                    <i className="fa fa-envelope" />
+                    <span>Email</span>
+               </a>
+               <a href="#top">
+                    <button
+                         className="scroltop icon-up"
+                         type="button"
+                         style={{ display: "inline-block" }}
+                    >
+                         <i className="fa fa-arrow-up" />
+                    </button>
+               </a>
+          </>
+     );
 }
 
 export default MyApp;

@@ -24,7 +24,7 @@ function PropertyIntro() {
               data-wow-delay="0.4s"
             >
               <div className="video-bx style-3">
-                <img src="images/video/pic3.jpg" alt="" />
+                <img src="images/video/video-thumbnail-01.png" alt="" />
                 <div className="video-btn">
                   <a
                     href="#proIntro"
@@ -50,7 +50,7 @@ function PropertyIntro() {
             >
               <div className="row">
                 <div className="col-lg-12">
-                  <ul className="list-check primary mb-3">
+                  <ul className="list-check primary mb-3 text-dark">
                     <li>Gated Society: They get complete privacy while living in a community.</li>
                     <li>Instant Possession after Registration.</li>
                     <li>Safe and Quality Neighborhood.</li>
@@ -62,8 +62,12 @@ function PropertyIntro() {
                   </ul>
                 </div>
                 <div className="col-lg-12 text-center">
-                  <button type="button" className="btn btn-danger m-2 move-2">Schedule a Call Back</button>
-                  <button type="button" className="btn btn-success move-2">Book Free Site Visit</button>
+                  <a data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                    <button type="button" className="btn btn-danger m-2 move-2">Schedule a Call Back</button>
+                  </a>
+                  <a data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                    <button type="button" className="btn btn-success move-2">Book Free Site Visit</button>
+                  </a>
                 </div>
               </div>
             </div>
