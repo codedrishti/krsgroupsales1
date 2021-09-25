@@ -1,7 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/brij-rani-kutir-promo-001": "pages/brij-rani-kutir-promo-001.js",
-  "/brij-rani-kutir-ty-01": "pages/brij-rani-kutir-ty-01.js"
+  "/_error": "pages/_error.js",
+  "/brij-rani-kutir-promo-001": "pages/brij-rani-kutir-promo-001.js"
 }

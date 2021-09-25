@@ -1,5 +1,8 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
+import { useRouter } from 'next/router';
+import * as ga from '../analytics/ga';
+import GoogleAnalitics from '../analytics';
 import cors from "cors";
 import Slider from "react-rangeslider";
 import "react-rangeslider/lib/index.css";
@@ -12,6 +15,8 @@ import "../styles/globals.css";
 import "../styles/switcher.css";
 
 function MyApp({ Component, pageProps }) {
+     const router = useRouter();
+
      const [toggle1, setToggle1] = useState(false);
      const [body_, setbody_] = useState();
      const [header, setHeader] = useState("fixed");
@@ -21,6 +26,18 @@ function MyApp({ Component, pageProps }) {
           setbody_(document.querySelector("body"));
           setHeader_(document.getElementsByClassName("main-bar-wraper"));
      }, []);
+
+     useEffect(() => {
+          const handleRouteChange = (url) => {
+            ga.pageview(url)
+          }
+          
+          router.events.on('routeChangeComplete', handleRouteChange)
+      
+          return () => {
+            router.events.off('routeChangeComplete', handleRouteChange)
+          }
+        }, [router.events])
 
      let scrollPosition = useScrollPosition();
      function toggle() {
@@ -50,44 +67,10 @@ function MyApp({ Component, pageProps }) {
 
      return (
           <>
-               <Head>
-                    <title>No.1 Township Developer in India - KRS Group</title>
-                    <link
-                         rel="icon"
-                         type="image/png"
-                         sizes="16x16"
-                         href="/images/favicon.png"
-                    />
-               </Head>
                <div className="page-wraper">
+                    <GoogleAnalitics />
                     <Component {...pageProps} />
                </div>
-
-               <a
-                    href="https://api.whatsapp.com/send?phone=919873632575&text=Hello,%20I%20need%20to%20discuss%20something%20about%20the%20property."
-                    target="_blank"
-                    className="bt-buy-now theme-btn"
-               >
-                    <i className="fab fa-whatsapp"></i>
-                    <span>Chat</span>
-               </a>
-               <a
-                    href="mailto:info@krsgrouptownship.com?subject=KRS Group Township - Share the property details."
-                    target="_blank"
-                    className="bt-support-now theme-btn"
-               >
-                    <i className="fa fa-envelope" />
-                    <span>Email</span>
-               </a>
-               <a href="#top">
-                    <button
-                         className="scroltop icon-up"
-                         type="button"
-                         style={{ display: "inline-block" }}
-                    >
-                         <i className="fa fa-arrow-up" />
-                    </button>
-               </a>
           </>
      );
 }
