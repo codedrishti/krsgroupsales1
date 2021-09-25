@@ -28,11 +28,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/brij-rani-kutir-promo-001.js"
-    ],
-    "/brij-rani-kutir-ty-01": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/brij-rani-kutir-ty-01.js"
     ]
   },
   "ampFirstPages": []

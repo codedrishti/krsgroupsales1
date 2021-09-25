@@ -12,6 +12,8 @@ import FAQList from "../component/faqList";
 import Cta from "../element/cta";
 import Footer from "../layout/landFooter";
 import Header from "../layout/landHeader";
+import SEO from "../component/seo";
+import FBPixel from "../analytics/pixel";
 
 function BrijRaniKutirPromo001() {
      useEffect(() => {
@@ -20,6 +22,8 @@ function BrijRaniKutirPromo001() {
 
      return (
           <>
+               <FBPixel pixelType="Brijranikutir" />
+               <SEO title="No. 1 Township Developer in India - KRS Group" />
                <Header />
                <div className="page-content bg-white" id="top">
                     <Slider4 />

@@ -15,12 +15,15 @@ import Team from "../element/team";
 import Testimonial from "../element/testimonial";
 import Footer from "../layout/footer";
 import Header from "../layout/header-2";
+import SEO from "../component/seo";
+
 function Home() {
      useEffect(() => {
           document.querySelector("body").setAttribute("color", "color_1");
      }, []);
      return (
           <>
+               <SEO title="No. 1 Township Developer in India - KRS Group" />
                <Header />
                <div className="page-content bg-white">
                     {/* <!-- inner page banner END --> */}
