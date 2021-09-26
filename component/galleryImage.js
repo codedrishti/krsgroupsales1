@@ -7,7 +7,7 @@ import {SRLWrapper, useLightbox} from 'simple-react-lightbox';
 function GalleryImage() {
   const gImage = [
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "web_design", "branding"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -18,10 +18,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "mobile_app", "seo"],
       imageSrc: "/images/gallery/pic12.jpg",
       img: (
@@ -32,10 +32,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "web_development", "branding"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -46,10 +46,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "web_design", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -60,10 +60,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "web_development", "branding"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -74,10 +74,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "web_design", "branding"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -88,10 +88,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "mobile_app", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -102,10 +102,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "branding", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -116,10 +116,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "mobile_app", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -130,10 +130,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "mobile_app", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -144,10 +144,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "mobile_app", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -158,10 +158,10 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
     {
-      title: "Software Landing Page Design",
+      title: "Brij Rani Kutir, Vrindavan - KRS Group",
       category: ["all", "mobile_app", "seo"],
       imageSrc: "/images/gallery/pic4.jpg",
       img: (
@@ -172,7 +172,7 @@ function GalleryImage() {
           height={370}
         />
       ),
-      author: "Jhone Doe",
+      author: "KRS Group Township",
     },
   ];
 
