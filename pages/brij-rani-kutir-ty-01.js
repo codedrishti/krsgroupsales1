@@ -3,6 +3,7 @@ import Kutirtyslider from "../element/kutir-ty-slider-01";
 import Footer from "../layout/landFooter";
 import Header from "../layout/landHeader";
 import SEO from "../component/seo";
+import FBPixel from "../analytics/pixel";
 
 function BrijRaniKutirPromo001() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function BrijRaniKutirPromo001() {
   
   return (
     <>
+      <FBPixel pixelType="BrijranikutirTq" />
       <SEO title="Thank you - KRS Group Township" />
       <Header />
       <div className="page-content bg-white" id="top">

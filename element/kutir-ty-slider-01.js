@@ -10,7 +10,7 @@ function KutirThankyouPage01() {
     <>
       <div
         className="banner-one"
-        style={{ backgroundImage: "url(images/main-slider/slider1/pic2.png)" }}
+        style={{ backgroundImage: "url(/images/main-slider/slider1/pic2.png)" }}
       >
         <div className="container">
           <div className="banner-inner">
@@ -84,7 +84,7 @@ function KutirThankyouPage01() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-1.jpg" alt="" />
+                  <img src="/images/landingpage/brij-pic-1.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ function KutirThankyouPage01() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-2.jpg" alt="" />
+                  <img src="/images/landingpage/brij-pic-2.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ function KutirThankyouPage01() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-3.jpg" alt="" />
+                  <img src="/images/landingpage/brij-pic-3.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ function KutirThankyouPage01() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-4.jpg" alt="" />
+                  <img src="/images/landingpage/brij-pic-4.jpg" alt="" />
                 </div>
               </div>
             </div>

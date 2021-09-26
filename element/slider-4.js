@@ -35,7 +35,7 @@ function Slider4() {
                         <a href="/images/landingpage/full-top-view-brij-rani-kutir.jpg">
                           <img
                             src="/images/landingpage/top-view-brij-rani-kutir.jpg"
-                            alt="Brij Rani Kutir"
+                            alt="Brij Rani Kutir, Vrindavan"
                             className="move-2"
                             style={{
                               border: "5px solid black",
@@ -97,7 +97,7 @@ function Slider4() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-1.jpg" alt="" />
+                  <img src="images/landingpage/brij-pic-1.jpg" alt="Brij Rani Kutir Photos" />
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ function Slider4() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-2.jpg" alt="" />
+                  <img src="images/landingpage/brij-pic-2.jpg" alt="Brij Rani Kutir Photos" />
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ function Slider4() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-3.jpg" alt="" />
+                  <img src="images/landingpage/brij-pic-3.jpg" alt="Brij Rani Kutir Photos" />
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ function Slider4() {
             >
               <div className="dlab-team m-b30">
                 <div className="dlab-media dlab-img-effect zoom zoom-slow">
-                  <img src="images/landingpage/brij-pic-4.jpg" alt="" />
+                  <img src="images/landingpage/brij-pic-4.jpg" alt="Brij Rani Kutir Photos" />
                 </div>
               </div>
             </div>
