@@ -40,30 +40,17 @@ function Header3() {
                             </div>
                             <ul className="nav navbar-nav navbar">	
 								<li><Link href="/"><a>Home</a></Link></li>
-                                <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Pages</span><i className="fa fa-chevron-down"></i></a>
+                                <li><Link href="/about"><a>About Us</a></Link></li>
+                                <li className={`${open === "projects" ? "open" : ""}`}><a onClick={() => setOpen("projects")}><span>Projects</span><i className="fa fa-chevron-down"></i></a>
                                     <ul className="sub-menu">
-										<li><Link href="/about-us-1"><a>About Us</a></Link></li>
-										<li><Link href="/faq-1"><a>Faq</a></Link></li>
-										<li><Link href="/pricing-table-1"><a>Pricing Table</a></Link></li>
-										<li><Link href="/team-1"><a>Team</a></Link></li>
-                                        <li><Link href="/coming-soon"><a>Coming Soon</a></Link></li>
-                                        <li><Link href="/error-404"><a>Error 404</a></Link></li>
-                                        <li><Link href="/sitedown"><a>Site Down</a></Link></li>
+                                        <li><Link href="/brij-rani-kutir-township"><a>Brij Rani Kutir Township</a></Link></li>
+										<li><Link href="/maa-kaila-devi-township"><a>Maa Kaila Devi Township</a></Link></li>
+                                        <li><Link href="/shri-radha-rani-township"><a>Shri Radha Rani Township</a></Link></li>
+                                        <li><Link href="/shri-radha-rani-township-phase-1"><a>
+Shri Radha Rani Township Phase-I</a></Link></li>
                                     </ul>
                                 </li>
-                                <li className={`${open === "services" ? "open" : ""}`}><a onClick={() => setOpen("services")}><span>Services</span><i className="fa fa-chevron-down"></i></a>
-                                    <ul className="sub-menu">
-                                        <li><Link href="/services-1"><a>Services</a></Link></li>
-										<li><Link href="/services-details-1"><a>Services Details</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li className={`${open === "blog" ? "open" : ""}`}><a onClick={() => setOpen("blog")}><span>Blog</span><i className="fa fa-chevron-down"></i></a>
-                                    <ul className="sub-menu">
-                                        <li><Link href="/blog-large-right-sidebar"><a>Large Right Sidebar</a></Link></li>
-										<li><Link href="/blog-details-1"><a>Blog Details</a></Link></li>
-                                    </ul>
-                                </li>
-                                <li><Link href="/contact-us-1"><a>Contact Us</a></Link></li>
+                                <li><Link href="/contact"><a>Contact Us</a></Link></li>
                             </ul>
                             <div className="dlab-social-icon">
                                 <ul>

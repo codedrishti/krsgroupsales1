@@ -1,8 +1,8 @@
-function GetInTouch3() {
+function GetInTouch() {
     return (
       <>
         {/* <!-- Contact Form --> */}
-<section className="content-inner">
+<section className="content-inner bg-gray">
     <div className="container">
         <div className="row align-items-center">
             <div className="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -68,4 +68,4 @@ function GetInTouch3() {
     )
   }
   
-  export default GetInTouch3;
+  export default GetInTouch;

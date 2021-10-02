@@ -1,120 +1,59 @@
-import { useEffect, useState } from "react";
-// import { WOW } from "wowjs";
+import { useState } from "react";
+import Link from 'next/link';
 
 function Service() {
-  const [open, setOpen] = useState("p2");
-  // useEffect(() => {
-  //   const wow = new WOW({
-  //     offset: 100,
-  //     mobile: false,
-  //     live: true,
-  //   });
-
-  //   wow.init();
-  // }, []);
-  return (
-    <>
-      <section
-        className="content-inner-2 wow fadeInUp"
-        style={{ backgroundImage: "url(images/background/bg1.png)" }}
-      >
-        <div className="container">
-          <div className="section-head style-1 text-center">
-            <h6 className="sub-title bgl-primary m-b20 text-primary">
-              Services
-            </h6>
-            <h2 className="title">Provide Awesome Service To You</h2>
-          </div>
-          <div className="row">
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.2s"
-            >
-              <div
-                className={`${
-                  open === "p1"
-                    ? "icon-bx-wraper style-1 box-hover text-center m-b30 active"
-                    : "icon-bx-wraper style-1 box-hover text-center m-b30"
-                }`}
-                onMouseOver={() => setOpen("p1")}
-              >
-                <div className="icon-bx-md radius bg-yellow shadow-yellow">
-                  <a href="javascript:void(0);" className="icon-cell">
-                    <i className="flaticon-office"></i>
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h4 className="dlab-title">Strategy & Research</h4>
-                  <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.4s"
-            >
-              <div
-                className={`${
-                  open === "p2"
-                    ? "icon-bx-wraper style-1 box-hover text-center m-b30 active"
-                    : "icon-bx-wraper style-1 box-hover text-center m-b30"
-                }`}
-                onMouseOver={() => setOpen("p2")}
-              >
-                <div className="icon-bx-md radius bg-red shadow-red">
-                  <a href="javascript:void(0);" className="icon-cell">
-                    <i className="flaticon-website"></i>
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h4 className="dlab-title">Web Development</h4>
-                  <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay="0.6s"
-            >
-              <div
-                className={`${
-                  open === "p3"
-                    ? "icon-bx-wraper style-1 box-hover text-center m-b30 active"
-                    : "icon-bx-wraper style-1 box-hover text-center m-b30"
-                }`}
-                onMouseOver={() => setOpen("p3")}
-              >
-                <div className="icon-bx-md radius bg-green shadow-green">
-                  <a href="javascript:void(0);" className="icon-cell">
-                    <i className="flaticon-pie-charts"></i>
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h4 className="dlab-title">Web Solution</h4>
-                  <p>
-                    Fusce sit amet dui vitae urna tristique imperdiet. Donec
-                    eget sapien euismod, faucibus nibh non, consequat elit.
-                    Praesent sed vehicula.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
-
-export default Service;
+    const [open, setOpen] = useState("p2")
+    return (
+      <>
+        {/* <!-- Service --> */}
+		<section className="content-inner">
+			<div className="container">
+				<div className="section-head style-3 text-center mb-4">
+					<h2 className="title">Our Speciallization</h2>
+					<div className="dlab-separator style-2 bg-primary"></div>
+				</div>
+				<div className="row">
+					<div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div className={`${open === "p1" ? "icon-bx-wraper style-5 box-hover text-center m-b30 active" : "icon-bx-wraper style-5 box-hover text-center m-b30"}`} onMouseOver={() => setOpen("p1")}>
+							<div className="icon-bx"> 
+								<span className="icon-cell"><i className="flaticon-office"></i></span> 
+							</div>
+							<div className="icon-content">
+								<h4 className="dlab-title m-b15">Strategy & Research</h4>
+								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+							</div>
+						</div>
+					</div>
+					<div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+					<div className={`${open === "p2" ? "icon-bx-wraper style-5 box-hover text-center m-b30 active" : "icon-bx-wraper style-5 box-hover text-center m-b30"}`} onMouseOver={() => setOpen("p2")}>
+							<div className="icon-bx"> 
+								<span className="icon-cell"><i className="flaticon-coding"></i></span> 
+							</div>
+							<div className="icon-content">
+								<h4 className="dlab-title m-b15">Web Development</h4>
+								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+							</div>
+						</div>
+					</div>
+					<div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+					<div className={`${open === "p3" ? "icon-bx-wraper style-5 box-hover text-center m-b30 active" : "icon-bx-wraper style-5 box-hover text-center m-b30"}`} onMouseOver={() => setOpen("p3")}>
+							<div className="icon-bx"> 
+								<span className="icon-cell"><i className="flaticon-laptop"></i></span> 
+							</div>
+							<div className="icon-content">
+								<h4 className="dlab-title m-b15">Web Solution</h4>
+								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
+								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+      </>
+    )
+  }
+  
+  export default Service;

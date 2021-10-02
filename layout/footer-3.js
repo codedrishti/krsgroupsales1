@@ -82,7 +82,7 @@ function Footer3() {
             </div>
 		</div>
         {/* <!-- footer bottom part --> */}
-        <div className="footer-bottom">
+        <div className="footer-bottom" style={{backgroundColor: "#111942 !important"}}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-12 text-center"> 
