@@ -1,55 +1,71 @@
 
 
-function Features() {
+function Features3() {
     return (
       <>
-        <section className="content-inner-2">
+        {/* <!-- Our Fetures --> */}
+		<section className="content-inner bg-white">
 			<div className="container">
-				<div className="row align-items-center">
-					<div className="col-xl-6 col-lg-7 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
-						<div className="section-head style-1">
-							<h6 className="sub-title bgl-primary m-b20 text-primary">Fetures</h6>
-							<h2 className="title">Our Working Process To Help Your Boost Your Business</h2>
-						</div>
-						<div className="section-wraper-one">
-							<div className="icon-bx-wraper style-2 left m-b30">
-								<div className="icon-bx-md radius bg-white text-red"> 
-									<a href="javascript:void(0);" className="icon-cell">
-										<i className="flaticon-idea"></i>
-									</a> 
-								</div>
-								<div className="icon-content">
-									<h4 className="dlab-title">Idea & Analysis Gathering</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								</div>
-							</div>
-							<div className="icon-bx-wraper style-2 left m-b30">
-								<div className="icon-bx-md radius bg-white text-yellow"> 
-									<a href="javascript:void(0);" className="icon-cell">
-										<i className="flaticon-line-graph"></i>
-									</a> 
-								</div>
-								<div className="icon-content">
-									<h4 className="dlab-title">Designing & Developing</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+				<div className="section-head style-3 text-center">
+					<h2 className="title">Our Fetures</h2>
+					<div className="dlab-separator style-2 bg-primary"></div>
+				</div>
+				<div className="row align-items-center about-wraper-2">
+					<div className="col-lg-4">
+						<div className="row">
+							<div className="col-lg-12 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+								<div className="icon-bx-wraper left m-b50 icon-up">
+									<div className="icon-bx-sm radius gradient-sec shadow-primary m-b20"> 
+										<a href="javascript:void(0);" className="icon-cell text-white"><i className="flaticon-idea"></i></a> 
+									</div>
+									<div className="icon-content">
+										<h4 className="dlab-tilte text-capitalize">Idea & Analysis</h4>
+										<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+									</div>
 								</div>
 							</div>
-							<div className="icon-bx-wraper style-2 left m-b30">
-								<div className="icon-bx-md radius bg-white text-green"> 
-									<a href="javascript:void(0);" className="icon-cell">
-										<i className="flaticon-rocket"></i>
-									</a> 
-								</div>
-								<div className="icon-content">
-									<h4 className="dlab-title">Testing & Lunching</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div className="col-lg-12 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+								<div className="icon-bx-wraper left m-b50 icon-up">
+									<div className="icon-bx-sm radius gradient-sec shadow-primary m-b20"> 
+										<a href="javascript:void(0);" className="icon-cell text-white"><i className="flaticon-vector"></i></a> 
+									</div>
+									<div className="icon-content">
+										<h4 className="dlab-tilte text-capitalize">Designing</h4>
+										<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className="col-xl-6 col-lg-5 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
-						<div className="dlab-media">
-							<img src="images/about/img5.png" className="move-2" alt=""/>
+					<div className="col-lg-4 wow zoomIn" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div className="dz-media text-center m-b30">
+							<img src="images/about/img7.png" className="move-1" alt=""/>
+						</div>
+					</div>
+					<div className="col-lg-4">
+						<div className="row">
+							<div className="col-lg-12 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+								<div className="icon-bx-wraper left m-b50 icon-up">
+									<div className="icon-bx-sm radius gradient-sec shadow-primary m-b20"> 
+										<a href="javascript:void(0);" className="icon-cell text-white"><i className="flaticon-coding"></i></a> 
+									</div>
+									<div className="icon-content">
+										<h4 className="dlab-tilte text-capitalize">Development</h4>
+										<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-12 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+								<div className="icon-bx-wraper left m-b50 icon-up">
+									<div className="icon-bx-sm radius gradient-sec shadow-primary m-b20"> 
+										<a href="javascript:void(0);" className="icon-cell text-white"><i className="flaticon-rocket"></i></a> 
+									</div>
+									<div className="icon-content">
+										<h4 className="dlab-tilte text-capitalize">Testing & Lunching</h4>
+										<p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -59,4 +75,4 @@ function Features() {
     )
   }
   
-  export default Features;
+  export default Features3;

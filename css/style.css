@@ -23,8 +23,13 @@
 @import url("../icons/flaticon/flaticon.css");
 @import url("../icons/themify/themify-icons.css");
 :root {
-  --gradient: linear-gradient(to right,#896eff 0,#5f3bff 51%,#896eff 100%);
-  --gradient-sec: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%); }
+  /* --gradient: linear-gradient(to right,#896eff 0,#5f3bff 51%,#896eff 100%);
+  --gradient-sec: linear-gradient(to right,#130065 0,#2b0ead 51%,#130065 100%); */
+  --gradient3: linear-gradient(90deg,#ef146e 0,#fea958 51%,#ef146e);
+  --gradient: linear-gradient(90deg,#ef146e 0,#fea958 51%,#ef146e);
+  --gradient-sec: linear-gradient(90deg,#111c58 0,#5c2782 51%,#111c58);
+
+} 
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -2170,8 +2175,10 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0rem rgba(71, 78, 115, 0.5); }
 
 .btn-outline-primary {
-  color: #896eff;
-  border-color: #896eff; }
+  /* color: #896eff;
+  border-color: #896eff;  */
+    color: #f01f75;
+    border-color: #f01f75;}
   .btn-outline-primary:hover {
     color: #fff;
     background-color: #896eff;
@@ -4812,7 +4819,9 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #896eff !important; }
+  /* background-color: #896eff !important;  */
+  background-color: #f01f75 !important;
+}
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -10397,7 +10406,8 @@ textarea {
     color: #fff !important; }
 
 .gradient {
-  background-image: linear-gradient(to right, #896eff 0, #5f3bff 51%, #896eff 100%);
+  /* background-image: linear-gradient(to right, #896eff 0, #5f3bff 51%, #896eff 100%); */
+  background-image: linear-gradient(90deg,#ef146e 0,#fea958 51%,#ef146e);
   background-size: 200%;
   border-color: transparent !important;
   transition: all 0.5s; }
