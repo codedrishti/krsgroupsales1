@@ -3,7 +3,7 @@ import Image from "next/image";
 import Footer3 from "../layout/footer-3";
 import Header3 from "../layout/header-3";
 import Link from "next/link";
-import MenuProjects from "../component/menuProjects";
+import ProjectsMenu from "../component/projectsMenu";
 import Aminities from "../component/aminities";
 import SimpleReactLightbox from 'simple-react-lightbox';
 import {SRLWrapper, useLightbox} from 'simple-react-lightbox'; 
@@ -143,7 +143,7 @@ function ProjectDetails() {
                          <div className="container">
                               <div className="row">
                                    <div className="col-xl-3 col-lg-4 m-b30">
-                                        <MenuProjects />
+                                        <ProjectsMenu />
                                    </div>
                                    <div className="col-xl-9 col-lg-8">
                                         <div className="dlab-media m-b30 rounded-md">
