@@ -19,7 +19,7 @@ function Service() {
 								<span className="icon-cell"><i className="flaticon-office"></i></span> 
 							</div>
 							<div className="icon-content">
-								<h4 className="dlab-title m-b15">Strategy & Research</h4>
+								<h4 className="dlab-title m-b15">Township Development</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
 								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
 							</div>
@@ -31,7 +31,7 @@ function Service() {
 								<span className="icon-cell"><i className="flaticon-coding"></i></span> 
 							</div>
 							<div className="icon-content">
-								<h4 className="dlab-title m-b15">Web Development</h4>
+								<h4 className="dlab-title m-b15">Interest Free Facilities </h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
 								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
 							</div>
@@ -43,7 +43,7 @@ function Service() {
 								<span className="icon-cell"><i className="flaticon-laptop"></i></span> 
 							</div>
 							<div className="icon-content">
-								<h4 className="dlab-title m-b15">Web Solution</h4>
+								<h4 className="dlab-title m-b15">The Best Return YOY</h4>
 								<p className="m-b20">Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus suscipit, enim ex venenatis ipsum, et porttitor.</p>
 								<Link href="services-3"><a className="btn btn-outline-primary"><i className="fa fa-angle-right"></i></a></Link>
 							</div>

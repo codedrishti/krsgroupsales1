@@ -9,11 +9,13 @@ import Testimonial from "../element/testimonial";
 import FaqHome from "../element/faqHome"
 import Footer3 from "./../layout/footer-3";
 import Header3 from "./../layout/header-3";
+import SEO from "../component/seo";
 
 function Home() {
  
   return (
     <>
+      <SEO title="No. 1 Township Developer in India - krsgrouptownship.com" />
       <Header3 />
       <div className="page-content bg-white" id="top">
         <Slider />

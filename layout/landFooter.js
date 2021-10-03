@@ -37,6 +37,7 @@ function LandFooter() {
           className="footer-bottom wow fadeIn"
           data-wow-duration="2s"
           data-wow-delay="0.2s"
+          style={{backgroundColor: "#b3a1ff !important"}}
         >
           <div className="container">
             <div className="row">

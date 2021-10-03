@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 function Footer3() {
@@ -25,25 +26,27 @@ function Footer3() {
                     </div>
 					<div className="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
 						<div className="widget widget_services style-1">
-							<h5 className="footer-title">Our links</h5>
+							<h5 className="footer-title">Site Map</h5>
 							<ul>
-								<li><a href="javascript:void(0);">Home</a></li>
-								<li><a href="javascript:void(0);">About Us</a></li>
-								<li><a href="javascript:void(0);">Services</a></li>
-								<li><a href="javascript:void(0);">Team</a></li>
-								<li><a href="javascript:void(0);">Blog</a></li>
+								<li><Link href="/"><a>Home</a></Link></li>
+								<li><Link href="/about"><a>About Us</a></Link></li>
+								<li><Link href="/projects"><a>Projects</a></Link></li>
+								<li><Link href="/contact"><a>Contact</a></Link></li>
+								<li><Link href="/become-associate"><a>Join as Associate</a></Link></li>
 							</ul>
 						</div>
                     </div>
 					<div className="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
 						<div className="widget widget_services style-1">
-							<h5 className="footer-title">Our Services</h5>
+							<h5 className="footer-title">Our Projects</h5>
 							<ul>
-								<li><a href="javascript:void(0);">Strategy & Research</a></li>
-								<li><a href="javascript:void(0);">Web Development</a></li>
-								<li><a href="javascript:void(0);">Web Solution</a></li>
-								<li><a href="javascript:void(0);">Digital Marketing</a></li>
-								<li><a href="javascript:void(0);">App Design </a></li>
+							<li><Link href="/brij-rani-kutir-township">
+								<a>Brij Rani Kutir</a></Link></li>
+							<li><Link href="/maa-kaila-devi-township"><a>Maa Kaila Devi</a></Link></li>
+                                   <li><Link href="/shri-radha-rani-township"><a>Shri Radha Rani</a></Link></li>
+                                   <li><Link href="/shri-radha-rani-township-phase-1">
+								<a>Shri Radha Rani Phase-I</a>
+							</Link></li>
 							</ul>
 						</div>
                     </div>
@@ -51,11 +54,10 @@ function Footer3() {
 						<div className="widget widget_services style-1">
 						   <h5 className="footer-title">Other links</h5>
 							<ul>
-								<li><a href="javascript:void(0);">FAQ</a></li>
-								<li><a href="javascript:void(0);">Portfolio</a></li>
-								<li><a href="javascript:void(0);">Privacy Policy</a></li>
-								<li><a href="javascript:void(0);">Terms & Conditions</a></li>
-								<li><a href="javascript:void(0);">Support </a></li>
+								<li><Link href="/faq"><a>FAQ</a></Link></li>
+								<li><Link href="/privacy-policy"><a>Privacy Policy</a></Link></li>
+								<li><Link href="/terms-and-conditions"><a>Terms & Conditions</a></Link></li>
+								<li><Link href="/contact"><a>Support </a></Link></li>
 							</ul>
 						</div>
                     </div>
@@ -65,15 +67,16 @@ function Footer3() {
 							<ul>
 								<li>
 									<i className="fa fa-phone gradient"></i>
-									<span>+91 123-456-7890<br/>+91 987-654-3210</span> 
+									<span><a className="text-white" href="tel:07550400495">+91 7550-400-495</a>
+									<br/><a className="text-white" href="tel:09873632575">+91 98-7363-2575</a></span> 
 								</li>
 								<li>
 									<i className="fa fa-envelope gradient"></i> 
-									<span>info@example.com <br/>info@example.com</span>
+									<span>info@krsgrouptownship.com <br/>krsgrouptownship@gmail.com</span>
 								</li>
 								<li>
 									<i className="fa fa-map-marker gradient"></i>
-									<span>Marmora Road Chi Minh City, Vietnam</span>
+									<span>15/1, Main Mathura Road, Faridabad, HRY, IND 121003</span>
 								</li>
 							</ul>
 						</div>
@@ -82,11 +85,11 @@ function Footer3() {
             </div>
 		</div>
         {/* <!-- footer bottom part --> */}
-        <div className="footer-bottom" style={{backgroundColor: "#111942 !important"}}>
+        <div className="footer-bottom">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-12 text-center"> 
-						<span className="copyright-text">Copyright © 2021 <a href="https://dexignzone.com/" target="_blank">DexignZone</a>. All rights reserved.</span> 
+						<span className="copyright-text">Copyright © 2021 <a href="https://krsgrouptownship.com/" target="_blank">KRS Group Township</a>. All rights reserved.</span> 
 					</div>
                 </div>
             </div>
