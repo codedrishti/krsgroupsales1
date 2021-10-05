@@ -93,7 +93,8 @@ function Slider1() {
                                                   Class Aminities
                                              </a>
                                              <div className="col-lg-12 text-center">
-                                                  <a data-formkit-toggle="1721633c3f" href="https://fabulous-inventor-6977.ck.page/1721633c3f">
+                                             <Link data-formkit-toggle="1721633c3f" href="https://fabulous-inventor-6977.ck.page/1721633c3f">
+                                                  <a>
                                                        <button
                                                             type="button"
                                                             className="btn btn-success m-2"
@@ -103,6 +104,7 @@ function Slider1() {
                                                             Back
                                                        </button>
                                                   </a>
+                                             </Link>
                                              </div>
                                         </div>
                                    </div>

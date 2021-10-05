@@ -1,4 +1,5 @@
 import GalleryImage from "../../component/promo/galleryImage";
+import Link from "next/link";
 
 function Gallery() {
   return (
@@ -25,11 +26,13 @@ function Gallery() {
                 </span>
               </h4>
               <h3 className="text-dark">Limited time offer – Hurry up! Its time to Save More For Future.</h3>
-              <a data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+              <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+              <a>
               <button type="button" className="btn btn-outline-success mt-25 move-2">
                 Schedule Call Back - <span className="text-dark">Sure good deals!</span>
               </button>
               </a>
+              </Link>
             </div>
           </div>
         </div>

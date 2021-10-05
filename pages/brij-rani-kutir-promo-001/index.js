@@ -49,12 +49,7 @@ function BrijRaniKutirPromo001() {
                </div>
 
                <Footer />
-               <Script
-                    async
-                    data-uid="dad8077b79"
-                    src="https://fabulous-inventor-6977.ck.page/dad8077b79/index.js"
-                    strategy="beforeInteractive"
-               />
+               <Script async data-uid="dad8077b79" src="https://fabulous-inventor-6977.ck.page/dad8077b79/index.js"/>
           </>
      );
 }

@@ -37,7 +37,7 @@ function ShriRadhaRaniTownshipPromo001() {
                </div>
                
                <Footer />
-               <Script async data-uid="1721633c3f" src="https://fabulous-inventor-6977.ck.page/1721633c3f/index.js" />
+               <Script async data-uid="dad8077b79" src="https://fabulous-inventor-6977.ck.page/dad8077b79/index.js"/>
           </>
      );
 }

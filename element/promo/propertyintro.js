@@ -62,12 +62,15 @@ function PropertyIntro() {
                   </ul>
                 </div>
                 <div className="col-lg-12 text-center">
-                <a data-formkit-toggle="1721633c3f" href="https://fabulous-inventor-6977.ck.page/1721633c3f">
+                <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79"><a>
                     <button type="button" className="btn btn-danger m-2 move-2">Schedule a Call Back</button>
                   </a>
-                  <a data-formkit-toggle="1721633c3f" href="https://fabulous-inventor-6977.ck.page/1721633c3f">
+                  </Link>
+                  <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                  <a>
                     <button type="button" className="btn btn-success move-2">Book Free Site Visit</button>
                   </a>
+                  </Link>
                 </div>
               </div>
             </div>

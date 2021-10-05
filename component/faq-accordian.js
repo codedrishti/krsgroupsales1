@@ -51,7 +51,7 @@ function FaqAccordion() {
                 {defaultAccordion.map((d, i) => (
                     <div className="card" key={i}>
                         <div
-                            eventKey={`${i}`}
+                            eventkey={`${i}`}
                             className="card-header"
                             onClick={() =>
                                 setActiveDefault(activeDefault === i ? -1 : i)
@@ -80,7 +80,7 @@ function FaqAccordion() {
                         </div> */}
                         <div className={`${
                                         activeDefault === i ? "collapsed show" : "collapsed"
-                                    }`} eventKey={`${i}`} onClick={() =>
+                                    }`} eventkey={`${i}`} onClick={() =>
                                         setActiveDefault(
                                             activeDefault === i ? -1 : i
                                         )
