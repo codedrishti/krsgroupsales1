@@ -93,7 +93,7 @@ function Slider1() {
                                                   Class Aminities
                                              </a>
                                              <div className="col-lg-12 text-center">
-                                             <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79"><a>
+                                             <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
                                                   <a>
                                                        <button
                                                             type="button"
