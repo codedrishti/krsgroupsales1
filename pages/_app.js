@@ -1,9 +1,7 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useRouter } from 'next/router';
-import * as ga from '../analytics/ga';
 import GoogleAnalitics from '../analytics';
-import cors from "cors";
 import Slider from "react-rangeslider";
 import "react-rangeslider/lib/index.css";
 import "slick-carousel/slick/slick-theme.css";

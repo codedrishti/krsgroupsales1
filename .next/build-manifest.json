@@ -1,218 +1,28 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/KMSq3C3hR-3VIbcXjljye/_buildManifest.js",
-    "static/KMSq3C3hR-3VIbcXjljye/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/655-0df5ee0889abd9a47a7c.js",
-      "static/chunks/838-5da40a033bd4c2142614.js",
-      "static/chunks/pages/index-64e71a4cf603ce67d156.js"
-    ],
     "/_app": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/css/9957714e8a17373e5de4.css",
-      "static/chunks/pages/_app-70e13543535d1fac0ef7.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/_error-737a04e9a0da63c9d162.js"
-    ],
-    "/about": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/239-f8467c74dae0edfa1c0c.js",
-      "static/chunks/655-0df5ee0889abd9a47a7c.js",
-      "static/chunks/838-5da40a033bd4c2142614.js",
-      "static/chunks/pages/about-f4de1fff58329f25040a.js"
-    ],
-    "/become-associate": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/407-76644137a7ae648e8f27.js",
-      "static/chunks/pages/become-associate-1750c6281d732f7ce018.js"
-    ],
-    "/blank": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/blank-21eed3e941e7ad77c7b1.js"
-    ],
-    "/brij-rani-kutir-promo-001": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/239-f8467c74dae0edfa1c0c.js",
-      "static/chunks/139-0e168adb5263f46cdb3f.js",
-      "static/chunks/pages/brij-rani-kutir-promo-001-b27ccbfe56f0d6eb519d.js"
-    ],
-    "/brij-rani-kutir-promo-001/tq": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/pages/brij-rani-kutir-promo-001/tq-3ef29155e4cf951ba599.js"
-    ],
-    "/brij-rani-kutir-township": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/921-4852e12c6dfebfd518eb.js",
-      "static/chunks/pages/brij-rani-kutir-township-f232382694452aea73a9.js"
-    ],
-    "/coming-soon": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/75fc9c18-5c1929f66343f0a636cd.js",
-      "static/chunks/137-36948dbccee9f15666e6.js",
-      "static/chunks/pages/coming-soon-1079976007844ea76f9e.js"
-    ],
-    "/contact": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/407-76644137a7ae648e8f27.js",
-      "static/chunks/pages/contact-71c70706959715a29988.js"
-    ],
-    "/disclaimer": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/disclaimer-636cfc5d979e9ef6c53c.js"
-    ],
-    "/error-404": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/error-404-8754656733eeeb6f462b.js"
-    ],
-    "/faq": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/faq-2250919ea7363f155d7a.js"
-    ],
-    "/maa-kaila-devi-township": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/921-4852e12c6dfebfd518eb.js",
-      "static/chunks/pages/maa-kaila-devi-township-60b142ab17bf2a523685.js"
-    ],
-    "/privacy-policy": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/privacy-policy-ba393427454468fc3ffb.js"
-    ],
-    "/project-details": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/921-4852e12c6dfebfd518eb.js",
-      "static/chunks/pages/project-details-1e43d5e884f7a40ad152.js"
-    ],
-    "/projects": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/projects-114113f6c0a3980464c4.js"
-    ],
-    "/shri-radha-rani-township": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/921-4852e12c6dfebfd518eb.js",
-      "static/chunks/pages/shri-radha-rani-township-be73acb980d211adb614.js"
-    ],
-    "/shri-radha-rani-township-phase-1": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/921-4852e12c6dfebfd518eb.js",
-      "static/chunks/pages/shri-radha-rani-township-phase-1-5b22a83a63736d7406d0.js"
-    ],
-    "/shri-radha-rani-township-promo-01": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/239-f8467c74dae0edfa1c0c.js",
-      "static/chunks/139-0e168adb5263f46cdb3f.js",
-      "static/chunks/pages/shri-radha-rani-township-promo-01-409f65aae8b105ecb2d3.js"
-    ],
-    "/shri-radha-rani-township-promo-01/tq-001": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/dbf3ce33-2df0882992defcbd56cf.js",
-      "static/chunks/30-492265c38cd11f600972.js",
-      "static/chunks/676-bc353860f3e17172cda9.js",
-      "static/chunks/pages/shri-radha-rani-township-promo-01/tq-001-177df42be598267c9dcf.js"
-    ],
-    "/sitedown": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/137-36948dbccee9f15666e6.js",
-      "static/chunks/pages/sitedown-8efb2e52920ce476e5a2.js"
-    ],
-    "/terms-and-conditions": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/terms-and-conditions-b27415f67f3104a99d78.js"
-    ],
-    "/test": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/920-644b0c855d1aff109310.js",
-      "static/chunks/pages/test-e6bcb4d77897e809a397.js"
-    ],
-    "/test2": [
-      "static/chunks/webpack-613fd858cdb9cf2af3be.js",
-      "static/chunks/framework-2191d16384373197bc0a.js",
-      "static/chunks/main-011e14431c997dd5213e.js",
-      "static/chunks/pages/test2-bcada2eafe2573564b1d.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []
