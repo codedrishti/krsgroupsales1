@@ -53,7 +53,7 @@ function PropertyIntro() {
                   <ul className="list-check primary mb-3 text-dark">
                     <li>Gated Society: They get complete privacy while living in a community.</li>
                     <li>Instant Possession after Registration.</li>
-                    <li>Safe and Quality Neighborhood.</li>
+                    <li>Plot Size: 110, 150, 220 & more.</li>
                     <li>Excellent Investment with Peace of Mind.</li>
                     <li>World Class Aminities Available.</li>
                     <li>Free Site Visit Facilities.</li>

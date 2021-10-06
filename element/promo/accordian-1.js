@@ -11,13 +11,12 @@ function FaqAccordion() {
     {
       title:
         "Registration/Approved by which authority ?",
-      text: "Society is registered under CLU 143 (Change of Land Use) & by District Authority.",
-
+      text: "Society is registered by Uttar Pradesh Govt. Authority under CLU 143 (Change of Land Use).",
       bg: "info",
     },
     {
-      title: "Residential/Commercial ?",
-      text: "Residential and commercial both property are available in our society.",
+      title: "Plots Size Residential/Commercial ?",
+      text: "Residential and commercial both property are available in our society. Plot Size: 110 Yrds to 500 Yrds and more",
 
       bg: "success",
     },

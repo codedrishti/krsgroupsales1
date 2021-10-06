@@ -61,7 +61,7 @@ function Slider1() {
                                                   data-wow-delay="0.5s"
                                                   className="wow fadeInUp sub-title text-danger"
                                              >
-                                                  यहाँ सर्च खत्म करें
+                                                  यहाँ सर्च खत्म करें, Govt. Approved Township!
                                              </h6>
                                              <h1
                                                   data-wow-duration="1.2s"

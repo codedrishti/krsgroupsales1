@@ -16,10 +16,10 @@ function Aminities1() {
             <h6 className="sub-title bgl-primary m-b20 text-primary">
               Aminities
             </h6>
-            <h2 className="title">Provide World Class Aminities To You</h2>
+            <h2 className="title">Provide World Class Aminities With Plots</h2>
             <p>
-              We are bounded to provide the best aminities to live here with the
-              all posiblities
+              We are committed to provide the best aminities to live in this Govt. Approved Township with the
+              all posiblities.
             </p>
           </div>
           <div className="row">
@@ -29,7 +29,7 @@ function Aminities1() {
             <div className="col-lg-12 text-center">
               <h3>
                 <span className="text-warning">In Exchange for Tiny Investment with 0% Intrest Rate,
-                You Get ALL Of This Price Less Aminities.</span><br />
+                You Get ALL Of This Price Less Aminities With Your PLOT.</span><br />
                 <span className="text-dark">Its your pocket-friendly property and Everything you need, on a budget so Hurry before the price get increase.</span>
               </h3>
               <Link href="https://fabulous-inventor-6977.ck.page/1721633c3f">

@@ -22,7 +22,7 @@ function Gallery() {
                                    <h4>
                                         <span className="text-danger">
                                              How to Keep Your Money from Being
-                                             Murdered!
+                                             Murdered!&nbsp;
                                         </span>
                                         <span className="text-success">
                                              Invest Your Money with Brij Rani

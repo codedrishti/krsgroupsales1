@@ -25,7 +25,7 @@ function AboutCompany() {
                   About Us
                 </h6>
                 <h2 className="title">
-                  How We Can Help You Achieve Your Dream Goal
+                  How We Can Help You To Achieve Your Dream Goal
                 </h2>
               </div>
               <p className="text-dark">

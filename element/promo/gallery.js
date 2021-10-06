@@ -19,7 +19,7 @@ function Gallery() {
             <div className="col-lg-12 text-center">
               <h4>
                 <span className="text-danger">
-                  How to Keep Your Money from Being Murdered!
+                  How to Keep Your Money from Being Murdered!&nbsp;
                 </span>
                 <span className="text-success">
                   Invest Your Money with Brij Rani Kutir Township!
