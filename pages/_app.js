@@ -25,18 +25,6 @@ function MyApp({ Component, pageProps }) {
           setHeader_(document.getElementsByClassName("main-bar-wraper"));
      }, []);
 
-     useEffect(() => {
-          const handleRouteChange = (url) => {
-            ga.pageview(url)
-          }
-          
-          router.events.on('routeChangeComplete', handleRouteChange)
-      
-          return () => {
-            router.events.off('routeChangeComplete', handleRouteChange)
-          }
-        }, [router.events])
-
      let scrollPosition = useScrollPosition();
      function toggle() {
           setToggle1(!toggle1);

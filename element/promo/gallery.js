@@ -26,8 +26,8 @@ function Gallery() {
                 </span>
               </h4>
               <h3 className="text-dark">Limited time offer – Hurry up! Its time to Save More For Future.</h3>
-              <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
-              <a>
+              <Link href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                        <a data-formkit-toggle="dad8077b79">
               <button type="button" className="btn btn-outline-success mt-25 move-2">
                 Schedule Call Back - <span className="text-dark">Sure good deals!</span>
               </button>

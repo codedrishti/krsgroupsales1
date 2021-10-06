@@ -32,8 +32,8 @@ function Aminities() {
                 You Get ALL Of This Price Less Aminities.</span><br />
                 <span className="text-dark">Its your pocket-friendly property and Everything you need, on a budget so Hurry before the price get increase.</span>
               </h3>
-              <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
-              <a>
+              <Link href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                        <a data-formkit-toggle="dad8077b79">
               <button type="button" className="btn btn-outline-success mt-25 move-2">Schedule Call Back - <span className="text-dark">Don't miss the chance!</span></button>
               </a>
               </Link>

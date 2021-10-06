@@ -81,7 +81,8 @@ function Slider4() {
                       <i className="fa fa-angle-right m-r10 m-t10"></i>Affordable Property with Best Aminities
                     </a>
                     <div className="col-lg-12 text-center">
-                      <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79"><a>
+                      <Link href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                        <a data-formkit-toggle="dad8077b79">
                         <button type="button" className="btn btn-success m-2">Pay less, get more! - Schedule a Call Back</button>
                       </a></Link>
                 </div>

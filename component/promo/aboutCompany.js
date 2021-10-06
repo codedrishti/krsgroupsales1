@@ -45,8 +45,8 @@ function AboutCompany() {
               </p>
               {/* <img src="images/sign.png" alt="" /> */}
               <h4 className="m-b30">KRS Home Developers Private Limited</h4>
-              <Link  data-formkit-toggle="dad8077b79" href="https://fabulous-inventor-6977.ck.page/dad8077b79">
-              <a>
+              <Link href="https://fabulous-inventor-6977.ck.page/dad8077b79">
+                        <a data-formkit-toggle="dad8077b79">
                 <button className="btn btn-success d-inline-flex align-items-center move-2">
                   <i className="fa fa-angle-right m-r10"></i>Save money and live better
                 </button>

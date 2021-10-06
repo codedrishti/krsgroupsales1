@@ -41,13 +41,16 @@ function Header3() {
                             <ul className="nav navbar-nav navbar">	
 								<li><Link href="/"><a>Home</a></Link></li>
                                 <li><Link href="/about"><a>About Us</a></Link></li>
-                                <li className={`${open === "projects" ? "open" : ""}`}><a onClick={() => setOpen("projects")}><span>Projects</span><i className="fa fa-chevron-down"></i></a>
+                                <li className={`${open === "projects" ? "open" : ""}`}>
+                                    <Link href="/projects">
+                                    <a onClick={() => setOpen("projects")}><span>Projects</span><i className="fa fa-chevron-down"></i></a>
+                                    </Link>
                                     <ul className="sub-menu">
                                         <li><Link href="/brij-rani-kutir-township"><a>Brij Rani Kutir Township</a></Link></li>
 										<li><Link href="/maa-kaila-devi-township"><a>Maa Kaila Devi Township</a></Link></li>
                                         <li><Link href="/shri-radha-rani-township"><a>Shri Radha Rani Township</a></Link></li>
-                                        <li><Link href="/shri-radha-rani-township-phase-1"><a>
-Shri Radha Rani Township Phase-I</a></Link></li>
+                                        <li><Link href="/shri-radha-rani-township-phase-1">
+                                            <a>Shri Radha Rani Township Phase-I</a></Link></li>
                                     </ul>
                                 </li>
                                 <li><Link href="/contact"><a>Contact Us</a></Link></li>
