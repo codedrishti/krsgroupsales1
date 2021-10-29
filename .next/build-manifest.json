@@ -24,15 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/brij-rani-kutir-promo-001": [
+    "/privacy-policy": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/brij-rani-kutir-promo-001.js"
+      "static/chunks/pages/privacy-policy.js"
     ],
-    "/shri-radha-rani-township-promo-01": [
+    "/terms-and-conditions": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/shri-radha-rani-township-promo-01.js"
+      "static/chunks/pages/terms-and-conditions.js"
     ]
   },
   "ampFirstPages": []
